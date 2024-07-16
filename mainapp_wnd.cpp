@@ -21,6 +21,8 @@ mainApp_Wnd::~mainApp_Wnd()
 
 void mainApp_Wnd::initUI()
 {
+    setWindowTitle("dataVisualization-addin");
+
     m_mainLayout = new QHBoxLayout;
 
     m_left_widegt = new main_left_widget();
